@@ -1,0 +1,85 @@
+{
+  "categories": [
+    {
+      "id": "cspm",
+      "title": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "id": "cloud-accounts",
+          "name": "Cloud Accounts",
+          "type": "donut",
+          "text": "Connected vs Not connected accounts.",
+          "data": [
+            { "name": "Connected", "value": 2 },
+            { "name": "Not Connected", "value": 2 }
+          ],
+          "visible": true
+        },
+        {
+          "id": "cloud-risk",
+          "name": "Cloud Account Risk Assessment",
+          "type": "donut",
+          "text": "Pass/Fail/Warning counts.",
+          "data": [
+            { "name": "Passed", "value": 7253 },
+            { "name": "Failed", "value": 1689 },
+            { "name": "Warning", "value": 681 },
+            { "name": "Not Available", "value": 36 }
+          ],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "cwpp",
+      "title": "CWPP Dashboard",
+      "widgets": [
+        {
+          "id": "namespace-alerts",
+          "name": "Top 5 Namespace Specific Alerts",
+          "type": "bar",
+          "text": "Namespace alerts overview.",
+          "data": [],
+          "visible": true
+        },
+        {
+          "id": "workload-alerts",
+          "name": "Workload Alerts",
+          "type": "bar",
+          "text": "Workload level alerts.",
+          "data": [],
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "registry",
+      "title": "Registry Scan",
+      "widgets": [
+        {
+          "id": "image-risk",
+          "name": "Image Risk Assessment",
+          "type": "progress",
+          "text": "Vulnerability breakdown.",
+          "data": [
+            { "name": "Critical", "value": 9 },
+            { "name": "High", "value": 150 },
+            { "name": "Medium", "value": 380 }
+          ],
+          "visible": true
+        },
+        {
+          "id": "image-issues",
+          "name": "Image Security Issues",
+          "type": "progress",
+          "text": "Security issues by severity.",
+          "data": [
+            { "name": "Critical", "value": 2 },
+            { "name": "High", "value": 2 }
+          ],
+          "visible": true
+        }
+      ]
+    }
+  ]
+}
