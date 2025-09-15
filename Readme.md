@@ -4,6 +4,16 @@ CNAPP Dashboard - Accuknox Internship Assignment
 
 A customizable dashboard for cloud security monitoring built with React and Redux. This project was developed as part of my internship assignment with Accuknox, demonstrating my skills in React development, state management, and data visualization.
 
+
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://my-cnapp-dashboard.netlify.app/)
+
+## 🌐 Live Demo
+
+Check out the live application here: [https://my-cnapp-dashboard.netlify.app/](https://my-cnapp-dashboard.netlify.app/)
+
+##Screenshot
+![Homepage](https://github.com/abhishek7217/Accuknox-Internship-Assignment/blob/658007075ab4b46aecc222028dda91b345343ab1/image.png)
+
 ## Features
 
 - View widgets organized by categories
